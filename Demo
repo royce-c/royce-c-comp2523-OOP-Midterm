@@ -1,4 +1,4 @@
-import { Artist } from "./Artist" ;
+import { Artist } from "./Artist";
 import { User } from "./User";
 import { Song } from "./Song";
 import { Album } from "./Album";
@@ -10,6 +10,6 @@ import { PlaylistImporter } from "./PlaylistImporter";
 let artist = new Artist("Muse");
 let album = new Album("The 2nd Law", artist, 2012);
 let song = new Song("Madness");
-album.addTrack(song)
+album.addTrack(song);
 let playlist = new Playlist("Fun songs");
 playlist.addAlbum(album);

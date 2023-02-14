@@ -28,7 +28,7 @@ export class Playlist {
 
   addAlbum(album: Album): void {
     for (const song in album.tracks) {
-      this._songs.push(song);
+      this._songs.push(song,song);
     }
   }
 }

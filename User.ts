@@ -24,12 +24,12 @@ export class User {
     return songs
   }
 
-  getAlbums(): Albums[] {
-    return []
+  getAlbums(): Album[] {
+    return this.album
   }
 
-  getPlaylists(): [] {
-    return []
+  getPlaylists(): Playlist[] {
+    return this.playlist
   }
 
   addPlaylistToUser(playlist): void {
